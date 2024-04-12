@@ -10,6 +10,7 @@
 		E4527F272BC97189002FC7D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4527F262BC97189002FC7D3 /* main.swift */; };
 		E4527F2F2BC971A5002FC7D3 /* CUnionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E4527F2E2BC971A5002FC7D3 /* CUnionPackage */; };
 		E4527F312BC976D5002FC7D3 /* CUnionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E4527F302BC976D5002FC7D3 /* CUnionPackage */; };
+		E4527F342BC97906002FC7D3 /* CUnionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E4527F332BC97906002FC7D3 /* CUnionPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		E4527F232BC97189002FC7D3 /* SwiftPlusCCommandLineTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPlusCCommandLineTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4527F262BC97189002FC7D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E4527F322BC9777D002FC7D3 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4527F2F2BC971A5002FC7D3 /* CUnionPackage in Frameworks */,
+				E4527F342BC97906002FC7D3 /* CUnionPackage in Frameworks */,
 				E4527F312BC976D5002FC7D3 /* CUnionPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +48,7 @@
 		E4527F1A2BC97189002FC7D3 = {
 			isa = PBXGroup;
 			children = (
+				E4527F322BC9777D002FC7D3 /* Readme.md */,
 				E4527F252BC97189002FC7D3 /* SwiftPlusCCommandLineTest */,
 				E4527F242BC97189002FC7D3 /* Products */,
 			);
@@ -85,6 +89,7 @@
 			packageProductDependencies = (
 				E4527F2E2BC971A5002FC7D3 /* CUnionPackage */,
 				E4527F302BC976D5002FC7D3 /* CUnionPackage */,
+				E4527F332BC97906002FC7D3 /* CUnionPackage */,
 			);
 			productName = SwiftPlusCCommandLineTest;
 			productReference = E4527F232BC97189002FC7D3 /* SwiftPlusCCommandLineTest */;
@@ -314,6 +319,10 @@
 			productName = CUnionPackage;
 		};
 		E4527F302BC976D5002FC7D3 /* CUnionPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CUnionPackage;
+		};
+		E4527F332BC97906002FC7D3 /* CUnionPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CUnionPackage;
 		};
