@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E4527F272BC97189002FC7D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4527F262BC97189002FC7D3 /* main.swift */; };
+		E4527F2F2BC971A5002FC7D3 /* CUnionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E4527F2E2BC971A5002FC7D3 /* CUnionPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4527F2F2BC971A5002FC7D3 /* CUnionPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,9 @@
 			dependencies = (
 			);
 			name = SwiftPlusCCommandLineTest;
+			packageProductDependencies = (
+				E4527F2E2BC971A5002FC7D3 /* CUnionPackage */,
+			);
 			productName = SwiftPlusCCommandLineTest;
 			productReference = E4527F232BC97189002FC7D3 /* SwiftPlusCCommandLineTest */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +111,9 @@
 				Base,
 			);
 			mainGroup = E4527F1A2BC97189002FC7D3;
+			packageReferences = (
+				E4527F2D2BC971A5002FC7D3 /* XCLocalSwiftPackageReference "../CUnionPackage" */,
+			);
 			productRefGroup = E4527F242BC97189002FC7D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +297,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E4527F2D2BC971A5002FC7D3 /* XCLocalSwiftPackageReference "../CUnionPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../CUnionPackage;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4527F2E2BC971A5002FC7D3 /* CUnionPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CUnionPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4527F1B2BC97189002FC7D3 /* Project object */;
 }
