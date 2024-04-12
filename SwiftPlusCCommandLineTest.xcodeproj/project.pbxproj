@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4527F272BC97189002FC7D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4527F262BC97189002FC7D3 /* main.swift */; };
 		E4527F2F2BC971A5002FC7D3 /* CUnionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E4527F2E2BC971A5002FC7D3 /* CUnionPackage */; };
+		E4527F312BC976D5002FC7D3 /* CUnionPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E4527F302BC976D5002FC7D3 /* CUnionPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4527F2F2BC971A5002FC7D3 /* CUnionPackage in Frameworks */,
+				E4527F312BC976D5002FC7D3 /* CUnionPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +84,7 @@
 			name = SwiftPlusCCommandLineTest;
 			packageProductDependencies = (
 				E4527F2E2BC971A5002FC7D3 /* CUnionPackage */,
+				E4527F302BC976D5002FC7D3 /* CUnionPackage */,
 			);
 			productName = SwiftPlusCCommandLineTest;
 			productReference = E4527F232BC97189002FC7D3 /* SwiftPlusCCommandLineTest */;
@@ -307,6 +310,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		E4527F2E2BC971A5002FC7D3 /* CUnionPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CUnionPackage;
+		};
+		E4527F302BC976D5002FC7D3 /* CUnionPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CUnionPackage;
 		};
